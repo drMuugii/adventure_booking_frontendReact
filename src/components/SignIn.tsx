@@ -11,7 +11,7 @@ import Typography from "@mui/material/Typography";
 import { Container } from "@mui/material";
 import axios from "axios";
 
-export default function SignInSide() {
+export default function Signin() {
   const handleSubmit = (event: any) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);

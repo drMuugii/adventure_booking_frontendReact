@@ -1,10 +1,11 @@
-import Signin from "./SignIn";
+import Blog from "./components/blog/Blog";
 
 function SignInSide() {
   return (
     <div>
-      <Signin />
+      <Blog />
     </div>
   );
 }
 export default SignInSide;
+S;
